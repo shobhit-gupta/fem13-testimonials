@@ -1,0 +1,21 @@
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Node
+node_modules
+package-lock*
+
+# Git
+.git*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

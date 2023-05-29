@@ -1,0 +1,19 @@
+services:
+  testimonials-grid:
+    build: ./
+    stdin_open: true
+    tty: true
+    container_name: testimonials-grid-app
+    ports:
+      - '10012:4173'
+      - '11012:5173'
+    volumes:
+      - ./:/app
+      - testimonials-grid-nm:/app/node_modules
+volumes:
+  testimonials-grid-nm:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ./node_modules
