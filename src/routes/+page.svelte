@@ -1,6 +1,16 @@
 <svelte:head>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="true" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap"
+		rel="stylesheet"
+	/>
 	<title>Testimonials Grid Section Challenge</title>
 </svelte:head>
+
+<div class="flex h-screen items-center justify-center text-5xl font-semibold">
+	Testimonials Grid Section Challenge
+</div>
 
 <!-- Daniel Clifford -->
 <!-- Verified Graduate -->
