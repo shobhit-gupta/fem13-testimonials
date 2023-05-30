@@ -1,38 +1,52 @@
-# create-svelte
+# Testimonials grid section solution
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+This is a solution to the [Testimonials grid section challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Creating a project
+## Table of contents
 
-If you're seeing this, you've probably already done this step. Congrats!
+-   [Overview](#overview)
+    -   [The challenge](#the-challenge)
+    -   [Screenshot](#screenshot)
+    -   [Links](#links)
+-   [My process](#my-process)
+    -   [Built with](#built-with)
+    -   [What I learned](#what-i-learned)
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## Overview
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+### The challenge
 
-## Developing
+Users should be able to:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+-   View the optimal layout for the site depending on their device's screen size
 
-```bash
-npm run dev
+### Screenshot
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+<!-- <img src="./screenshots/mobile.jpg" alt="Mobile Screenshot" height="500px" style="margin: 16px">
+<img src="./screenshots/desktop.png" alt="Desktop Screenshot" height="500px" style="margin: 16px"> -->
 
-## Building
+### Links
 
-To create a production version of your app:
+<!-- -   Solution URL: [Github Repo](https://github.com/shobhit-gupta/fem13-testimonials)
+-   Live Site URL: [https://fem12-shortly.vercel.app](https://fem13-testimonials.vercel.app) -->
 
-```bash
-npm run build
-```
+## My process
 
-You can preview the production build with `npm run preview`.
+### Built with
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+-   [Svelte](https://svelte.dev/) - Frontend Framework (like React)
+-   [SvelteKit](https://kit.svelte.dev/) - Fullstack Framework (like Next.js)
+-   [tailwindcss](https://tailwindcss.com/) - Utility-first CSS framework
+-   [TypeScript](https://www.typescriptlang.org) - Strongly Typed language built on Javascript
+
+### What I learned
+
+<!-- - Reallife like dev environment. First Sveltekit + tailwindcss + Vercel project developed with
+  - Agile approach
+  - Multiple environments from the start
+  - Develop then refactor style coding for almost every incremental change.
+- CSS only Hamburger menu with tailwindcss
+- Reuse of same Navigation HTML component on 3 instances with different styles
+- Underline animation with tailwindcss
+- Revisited z-index fundamentals
+- `whitespace-pre` class -->
