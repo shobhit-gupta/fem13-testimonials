@@ -8,7 +8,7 @@
 	<title>Testimonials Grid Section Challenge</title>
 </svelte:head>
 
-<div
+<!-- <div
 	class="flex min-h-screen items-center justify-center text-center align-middle text-5xl font-semibold text-white"
 >
 	<div class="grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-4 md:grid-rows-2 md:gap-8">
@@ -28,19 +28,39 @@
 			<div class="flex h-full items-center justify-center p-32">5</div>
 		</div>
 	</div>
+</div> -->
+
+<div class="flex min-h-screen items-center justify-center text-white">
+	<div
+		class="m-6 max-w-lg space-y-4 rounded-lg bg-moderateViolet p-8 pt-7 shadow-lg shadow-veryDarkGrayishBlue/25"
+	>
+		<div class="flex items-start gap-4">
+			<div
+				class="h-7 w-7 overflow-hidden rounded-full border-2 border-white border-opacity-20"
+			>
+				<img src="/images/image-daniel.jpg" alt="" />
+			</div>
+			<div>
+				<h2 class="leading-none">Daniel Clifford</h2>
+				<p class="mt-1 text-xs leading-none opacity-50">Verified Graduate</p>
+			</div>
+		</div>
+
+		<p class="text-xl font-semibold leading-6">
+			I received a job offer mid-course, and the subjects I learned were current, if not more
+			so, in the company I joined. I honestly feel I got every penny’s worth.
+		</p>
+
+		<p class="opacity-50">
+			“ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
+			transition and have heard some people who had an amazing experience here. I signed up
+			for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
+			The next 12 weeks was the best - and most grueling - time of my life. Since completing
+			the course, I’ve successfully switched careers, working as a Software Engineer at a VR
+			startup. ”
+		</p>
+	</div>
 </div>
-
-<!-- Daniel Clifford -->
-<!-- Verified Graduate -->
-
-<!-- I received a job offer mid-course, and the subjects I learned were current, if not more so,  -->
-<!-- in the company I joined. I honestly feel I got every penny’s worth. -->
-
-<!-- “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a  -->
-<!-- transition and have heard some people who had an amazing experience here. I signed up  -->
-<!-- for the free intro course and found it incredibly fun! I enrolled shortly thereafter.  -->
-<!-- The next 12 weeks was the best - and most grueling - time of my life. Since completing  -->
-<!-- the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ” -->
 
 <!-- Jonathan Walters -->
 <!-- Verified Graduate -->
