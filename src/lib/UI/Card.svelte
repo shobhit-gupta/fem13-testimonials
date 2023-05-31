@@ -3,8 +3,7 @@
 	export let imgSrc: string;
 </script>
 
-<!-- Card -->
-<div class="card {$$restProps.class || ''}">
+<div class="card">
 	<div class="flex items-start gap-4">
 		<div class="card__pic-wrapper">
 			<img src={imgSrc} alt="Profile pic of {name}" />
@@ -26,9 +25,9 @@
 
 <style lang="postcss">
 	:global(.card) {
-		@apply m-6 max-w-xs space-y-4 rounded-lg p-8 pt-7 shadow-lg shadow-veryDarkGrayishBlue/25;
+		@apply space-y-4 rounded-lg p-8 pt-7 shadow-lg shadow-veryDarkGrayishBlue/25;
 	}
-	:global(.card__pic-wrapper) {
-		@apply h-7 w-7 overflow-hidden rounded-full border-2 border-white border-opacity-20;
+	.card__pic-wrapper {
+		@apply h-7 w-7 overflow-hidden rounded-full border-2 border-gray-400 border-opacity-20;
 	}
 </style>
