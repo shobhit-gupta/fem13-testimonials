@@ -20,6 +20,7 @@ export default {
 				sans: ['Barlow Semi Condensed', 'sans-serif']
 			},
 			fontSize: {
+				xs: '0.6875rem',
 				sm: '0.8125rem'
 			}
 		}

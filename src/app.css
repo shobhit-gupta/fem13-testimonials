@@ -4,6 +4,6 @@
 
 @layer base {
 	body {
-		@apply font-sans text-sm font-medium;
+		@apply bg-lightGrayishBlue font-sans text-sm font-medium leading-snug;
 	}
 }
